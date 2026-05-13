@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang = "vi">
+	<head>
+		<title>Thiết kế form đăng kí</title>
+			<meta charset = "utf - 8">
+			<link rel = "stylesheet" href = "../css/style3.css">
+	</head>
+	<body>
+			<div class = "container">
+			<form id = frmLogin>
+				<h3 id = "title">Đăng kí thông tin</h3>
+				<div class = form-group>
+					<label for = "txtName">Họ và Tên</label>
+					<input class = "form-control" type = "text" id = "txtName" name = "txtName">
+				</div>
+				<div class = "form-group">
+					<label for = "txtId">Mã số sinh viên</label>
+					<input class = "form-control" type = "text" id = "txtId" name = "txtId">
+				</div>
+				<div class = "option-group">
+				<label for="classname">Bạn học lớp nào</label>
+					<select id="classname" name="classname">
+					<option value="DA24TTA">DA24TTA</option>
+					<option value="DA24TTB">DA24TTB</option>
+					<option value="DA24TTC">DA24TTC</option>
+					<option value="DA24TTD">DA24TTD</option>
+					</select>
+				</div>
+				<div class = "option-group">
+					<label for="NgaySinh">Ngày sinh của bạn</label>
+					<input type="datetime-local" id="NgaySinh" name="NgaySinh">
+				</div>
+				<div class = form-group>
+					<label for = "txtaddress">Địa chỉ</label>
+					<input class = "form-control" type = "text" id = "txtaddress" name = "txtaddress">
+				</div>
+				<div class = "form-group">
+					<label for = "txtnumber">Số điện thoại</label>
+					<input class = "form-control" type = "text" id = "txtnumber" name = "txtnumber">
+				</div>
+				<div class = "check-group">
+					<p>Giới tính của bạn</p>
+					<label for="male">Nam</label>
+					<input type="checkbox" id="male" name="male" value="value1">
+					<label for="female">Nữ</label>
+					<input type="checkbox" id="female" name="female" value="value2">
+				</div>
+				<div class = "check-group">
+					<p>Điểm mạnh của bạn</p>
+					<label for="option1">Thể thao</label>
+					<input type="checkbox" id="option1" name="iption1" value="option1">
+					<label for="option2">Lập trình</label>
+					<input type="checkbox" id="option2" name="option2" value="option2">
+					<label for="option3">Chơi game</label>
+					<input type="checkbox" id="option3" name="option3" value="option3">
+				</div>
+				<div>
+					<label for="message">Giới thiệu</label>
+					<textarea id="message" name="message" rows="3" cols="50">
+							
+					</textarea>
+
+				</div>
+				<input class = "button" type = "submit" id = "sbLogin" name = "sbLogin" value = "Đăng kí">
+			</form>
+		</div>
+	
+	</body>
+</html>
